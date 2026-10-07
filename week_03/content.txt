@@ -1,0 +1,19 @@
+1. create a .txt file with filename university inside week3 folder
+2. convert the first hex value into equivalent decimal
+3. create first.c file inside week3 folder
+
+ls, cd, touch, mkdir
+
+first.c:
+
+include <stdio.h>
+int main(){
+	printf("Hello,world!");
+	return 0;
+}
+
+gcc first.c -o first
+gcc -save-temps first.c -o kavi
+
+
+cd /mnt/c/Users/kaviranjanii/OneDrive/Desktop/C_lab/week_03
