@@ -1,0 +1,9 @@
+*youtube channel: Programmiz
+*playlist: C Programming for Beginners
+*also check the C programming note
+*also practice with kamal sir's homework
+
+2. Variable
+- variable will only be seen after runing, if you give printf onlt, otherwise it wont show
+
+3. Datatypes
