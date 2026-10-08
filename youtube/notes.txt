@@ -7,3 +7,11 @@
 - variable will only be seen after runing, if you give printf onlt, otherwise it wont show
 
 3. Datatypes
+-int
+-double -float
+: both float and double is used for storing exponential and decimal values, only difference is the size
+: double-> 8 bytes, float-> 4 bytes
+: so, double can be used to store numbers with more precision
+
+-char
+: characters are internally stored as integers, to display the integer value, use %d

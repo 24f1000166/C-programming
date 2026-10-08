@@ -35,3 +35,33 @@
 
 //     return 0;
 // }
+
+
+/* 3. Datatypes */
+
+#include <stdio.h>
+
+int main() {
+
+    // int age=10;
+    // printf("Age: %d", age);
+    // return 0;
+
+    // double number = 12.45;
+    // float num = 10.1f; /* herem the f is the syntax, which tell that this is a float number */
+    // printf("%lf", number); /* output: 12.450000, co double variable takes 6 digitsafter decimal point */
+    // printf("%.2lf", number);/* this will give only 2 digits after decimal point */
+    // printf("%.1lf", number);
+    // printf("%f", num);
+    // printf("\n%.1f", num);
+
+    // char character='k'; /* the character should be in single quotes */
+    // printf("%c", character);
+    // printf(" %d", character); /* to print the integer value of the character */
+
+    // int age;
+    // double number;
+    // printf("int size = %zu", sizeof(age));
+    // printf("\ndouble size = %zu", sizeof(number)    );
+
+}
