@@ -15,3 +15,8 @@
 
 -char
 : characters are internally stored as integers, to display the integer value, use %d
+
+4. User Input
+- scanf takes input from the user and store it in a variable
+- for consequent input entering, give a space before next scanf, so that while entering, it will not
+consider the enter as an input and print that

@@ -39,9 +39,9 @@
 
 /* 3. Datatypes */
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
+// int main() {
 
     // int age=10;
     // printf("Age: %d", age);
@@ -64,4 +64,43 @@ int main() {
     // printf("int size = %zu", sizeof(age));
     // printf("\ndouble size = %zu", sizeof(number)    );
 
+// }
+
+/* 4. User Input */
+
+#include <stdio.h>
+
+int main(){
+    // int age;
+    // printf("Enter your age: ");
+    // scanf("%d",&age);
+    // printf("Age=%d\n", age);
+
+    /* double input */
+    // double number;
+    // char alphabet;
+
+    // printf("Enter double input: ");
+    // scanf("%lf",&number);
+
+    // printf("Enter character input: ");
+    // scanf(" %c",&alphabet);/* space before %c makes the input entering possible */
+
+    // printf("Number: %lf", number);
+    // printf("\nCharacter: %c", alphabet);
+
+    /* multiple input */
+    double number;
+    char alphaber;
+    int num;
+    float deci;
+
+    printf("Enter the input values: ");
+    scanf("%lf %c %d %f", &number, &alphaber, &num, &deci);
+    
+    printf("Number: %lf", number);
+    printf("\nCharater: %c", alphaber);
+    printf("\nInterger: %d", num);
+    printf("\nFloat: %f", deci);
+    return 0;
 }
