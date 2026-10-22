@@ -20,3 +20,16 @@
 - scanf takes input from the user and store it in a variable
 - for consequent input entering, give a space before next scanf, so that while entering, it will not
 consider the enter as an input and print that
+
+6. Operators
+Addition+
+Subtraction-
+Multiplication*
+Division/
+   > int and double gives different outputs and use double to have the full result
+    >and Division operator gives the quotient value
+Remainder%
+   > to get the reminder value of the division 
+   > only works with int; double will give you error
+Increment++
+Decrement--

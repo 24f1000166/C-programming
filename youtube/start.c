@@ -68,39 +68,86 @@
 
 /* 4. User Input */
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(){
-    // int age;
-    // printf("Enter your age: ");
-    // scanf("%d",&age);
-    // printf("Age=%d\n", age);
+// int main(){
+//     // int age;
+//     // printf("Enter your age: ");
+//     // scanf("%d",&age);
+//     // printf("Age=%d\n", age);
 
-    /* double input */
-    // double number;
-    // char alphabet;
+//     /* double input */
+//     // double number;
+//     // char alphabet;
 
-    // printf("Enter double input: ");
-    // scanf("%lf",&number);
+//     // printf("Enter double input: ");
+//     // scanf("%lf",&number);
 
-    // printf("Enter character input: ");
-    // scanf(" %c",&alphabet);/* space before %c makes the input entering possible */
+//     // printf("Enter character input: ");
+//     // scanf(" %c",&alphabet);/* space before %c makes the input entering possible */
 
-    // printf("Number: %lf", number);
-    // printf("\nCharacter: %c", alphabet);
+//     // printf("Number: %lf", number);
+//     // printf("\nCharacter: %c", alphabet);
 
-    /* multiple input */
-    double number;
-    char alphaber;
-    int num;
-    float deci;
+//     /* multiple input */
+//     double number;
+//     char alphaber;
+//     int num;
+//     float deci;
 
-    printf("Enter the input values: ");
-    scanf("%lf %c %d %f", &number, &alphaber, &num, &deci);
+//     printf("Enter the input values: ");
+//     scanf("%lf %c %d %f", &number, &alphaber, &num, &deci);
     
-    printf("Number: %lf", number);
-    printf("\nCharater: %c", alphaber);
-    printf("\nInterger: %d", num);
-    printf("\nFloat: %f", deci);
-    return 0;
+//     printf("Number: %lf", number);
+//     printf("\nCharater: %c", alphaber);
+//     printf("\nInterger: %d", num);
+//     printf("\nFloat: %f", deci);
+//     return 0;
+// }
+
+/* 6. Operators */
+#include <stdio.h>
+int main(){
+    // Addition,subtraction,multiplication
+    // int x=12;
+    // double y=3.566;
+    // // int result=x+3;
+    // // int result=x-13;
+    // int result=x*10;
+    // // double ans=y+2.56;
+    // // double ans=y-5.87;
+    // double ans=y*4;
+    // // double anss=y+x;
+    // // double anss=y-x;
+    // double anss=y*x;
+    // printf("%d\n", result);
+    // printf("%d\n", x+5);
+    // printf("%.2lf\n",ans);
+    // printf("%.2lf\n",anss);
+    // return 0;
+
+    /* division */
+    // int x=12;
+    // double y=12;
+    // int result = x/8; /* this gives output: 1 */
+    // double res=y/8; /* this gives output: 1.50 */
+    // printf("%.2lf\n",res);
+    // printf("%d\n",result);
+    // return 0;
+
+     /* remainder */
+    // int x=12;
+    // double y=12;
+    // int result = x%8; /* this gives output: 4 */
+    // // double res=y%8; /* this gives output: error */
+    // // printf("%.2lf\n",res);
+    // printf("%d\n",result);
+    // // return 0;
+
+    /* incremetn and decrement */
+    int x=12;
+    //  printf("%d\n", ++x);
+    printf("%d\n", x++);
+    // printf("%d\n", --x);
+    // printf("%d\n", x--);
 }
