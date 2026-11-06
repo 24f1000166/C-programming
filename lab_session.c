@@ -115,53 +115,141 @@
 // }
 
 // 3. functions
+// #include <stdio.h>
+// #include <math.h>
+// int add(int x, int y){
+//     int sum = x+y;
+//     return sum;
+// }
+// int subtr(int a,int b){
+//     return a-b;
+// }
+// int prod(int x, int y){
+//     return x*y;
+// }
+// double division(int x, int y){
+//     return (double)x/y;
+// }
+// int squar(int x){
+//     return x*x;
+// }
+// double power(int x, int y){
+//     return pow(x,y);
+// }
+// char adch(char c, char d){
+//     return c+d;
+// }
+
+// int main(){
+//     int a,b;
+//     char m,n;
+//     scanf("%d", &a);
+//     scanf("%d",&b);
+//     // scanf("%c",&m);
+//     // scanf("%c",&n);
+//     int sum = add(a,b);
+//     int sub = subtr(a,b);
+//     int mult = prod(a,b);
+//     int sq = squar(a);
+//     double divi = division(a,b);
+//     double po = power(a,b);
+//     // char ch=adch(m,n);
+//     printf("a: %d\n",a);
+//     printf("b: %d\n",b);
+//     printf("sum: %d\n", sum);
+//     printf("subtr: %d\n", sub);
+//     printf("product: %d\n", mult);
+//     printf("division: %.2lf\n", divi);
+//     printf("square: %d\n", sq);
+//     printf("Power: %.2lf\n",po);
+//     // printf("chara: %c\n", ch);
+
+// }
+
+
+// 06/11/2026
+
+/* stack-> first in last out */
+// recursion
+// code visualizor for python, java, C
+
+/* pointer: it is a variable a, which contains the location of another variable b */
+
+// #include <stdio.h>
+
+// int facto(int x){
+//     if (x==1){
+//         return 1;
+//     } else {
+//         return x*facto(x-1);
+//     }
+// }
+// int main(){
+//     int n = 5;
+//     printf("Factorial of n: %d\n",facto(n));
+// }
+
+// 1. A coffee shop runs a promotional campaign; you can exchange 3 empyty cups to get 1 free coffee
+// give the nummber of coffees you initially buy, write a C program to find the totl number of coffees
+// #include <stdio.h>
+// int main(){
+//     int n,cups;
+//     int total;
+//     printf("Number of cups initial: ");
+//     scanf("%d",&n);
+
+//     while (cups>=3){
+//         int freecoff = cups/3;
+//         total += freecoff;
+//         cups = cups % 3 + freecoff;
+
+// }
+// printf("Total number of coffee: %d", total);
+// }
+
+// 2. pointer arithmetic
 #include <stdio.h>
-#include <math.h>
-int add(int x, int y){
-    int sum = x+y;
-    return sum;
-}
-int subtr(int a,int b){
-    return a-b;
-}
-int prod(int x, int y){
-    return x*y;
-}
-double division(int x, int y){
-    return (double)x/y;
-}
-int squar(int x){
-    return x*x;
-}
-double power(int x, int y){
-    return pow(x,y);
-}
-char adch(char c, char d){
-    return c+d;
-}
+// int main(){
+//     int arr[]={1,25,43,32,6};
+//     for (int i=0;i<5;i++){
+//         printf("%p\n", &arr[i]);
+//     }
 
+//     int *p=arr;
+//     for (int j=0;j<5;j++){
+//         printf("%p\n", &*p+j);
+//     }
+// }
+/* double pointer */
+// int main(){
+//     int v=10;
+//     int *pt1 = &v;
+//     int **pt2= &pt1;
+
+//     printf("%d\n", v);
+//     printf("%d\n", *pt1);
+//     printf("%d\n", **pt2);
+// }
+
+/* character traversing */
 int main(){
-    int a,b;
-    char m,n;
-    scanf("%d", &a);
-    scanf("%d",&b);
-    // scanf("%c",&m);
-    // scanf("%c",&n);
-    int sum = add(a,b);
-    int sub = subtr(a,b);
-    int mult = prod(a,b);
-    int sq = squar(a);
-    double divi = division(a,b);
-    double po = power(a,b);
-    // char ch=adch(m,n);
-    printf("a: %d\n",a);
-    printf("b: %d\n",b);
-    printf("sum: %d\n", sum);
-    printf("subtr: %d\n", sub);
-    printf("product: %d\n", mult);
-    printf("division: %.2lf\n", divi);
-    printf("square: %d\n", sq);
-    printf("Power: %.2lf\n",po);
-    // printf("chara: %c\n", ch);
+// char fruits[3][8] = {"apple","banana","cherry"};
+// printf("%c\n", fruits[0][0] );
+// printf("%c\n", fruits[1][0] );
+// printf("%c\n", fruits[2][4] );
+// printf("%s\n", fruits[1]);
+// printf("%c\n", fruits[3][3] );
 
+// const char *fruits[]={"apple","cherry","mango","orange"};
+// printf("%c\n", fruits[0][0]);
+// printf("%s\n", fruits[2] );
+// printf("%c\n", fruits[3][2] );
+// printf("%c\n", fruits[4][0] );
+
+int matrix[2][3]={1,2,3,4,5,6};
+
+}
+/* calling by value; callling by reference(address) */
+void modif(int num){
+    
 }
